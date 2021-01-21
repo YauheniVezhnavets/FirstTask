@@ -22,7 +22,7 @@ public class ArrayLogicTest {
     @Test
     public void testFindMaxShouldFindMaxWhenNegativeNumbersApplied() {
         //given
-        Array array = new Array(-1, -3, -2);
+        Array array = new Array(-1, 3, -2);
 
         //when
         int actual= arrayLogic.findMax(array);
